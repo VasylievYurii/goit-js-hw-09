@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  display: inline-flex;
+  margin: 10px;
+  text-decoration: none;
+  position: relative;
+  font-size: 20px;
+  line-height: 20px;
+  padding: 12px 30px;
+  color: #FFF;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Roboto Condensed', sans-serif;
+  background: #337AB7;
+  cursor: pointer;
+  border: 2px solid #BFE2FF;
+  overflow: hidden;
+  z-index: 1;
+}
+
+button:hover, button:focus{
+  background: #0a5ea7;
+}
+
+button.noActive{
+  background: #b7d1e9;
+}
